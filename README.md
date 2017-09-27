@@ -5,10 +5,9 @@
 Maual de instalacion de la wabApp bookstore.
 los pasos a seguir son los siguientes:
 <ul>
-<li><pre>descomprimir el archivo:
+<pre><li>descomprimir el archivo:
 $ unzip proyecto_examen.zip
-</pre> 
-</li>
+</li></pre> 
 <li>
 En el servidor donde se instalará la webapp ejecutar
 el script de sql: 
