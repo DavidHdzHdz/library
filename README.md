@@ -63,6 +63,6 @@ y se tendra ya instalada la aplicacion.
 </li>
 </ul>
 
-<h3>Puedes ver el funcionamiento de la página <a href = "http://welectronic.byethost6.com/bookstore/">presionando aquí</a><h3>
+<h3>Puedes ver el funcionamiento de la página <a href = "http://welectronic.byethost6.com/bookstore/" target = "_blank">presionando aquí</a><h3>
 
  
