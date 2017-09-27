@@ -8,12 +8,11 @@ los pasos a seguir son los siguientes:
 <pre><li>descomprimir el archivo:
 $ unzip proyecto_examen.zip
 </li></pre> 
-<li>
-En el servidor donde se instalará la webapp ejecutar
+<pre><li>En el servidor donde se instalará la webapp ejecutar
 el script de sql: 
  $ mysql -u nom-usuario -p contraseña
  $ \. /rutadelarchivo/booStoreScript.sql
-</li>
+</pre></li>
 <li>
 Modificar la clase conexion del proyecto la cual se encontrá en la
 carpeta bookstore.
