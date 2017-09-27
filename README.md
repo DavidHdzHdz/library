@@ -4,22 +4,19 @@
 
 Maual de instalacion de la wabApp bookstore.
 los pasos a seguir son los siguientes:
-
-<li>descomprimir el archivo:<br> $ unzip proyecto_examen.zip
+<ul>
+<li>
+descomprimir el archivo:
+ $ unzip proyecto_examen.zip
 </li>
 <li>
-2.- en el servidor donde se instalará la webapp ejecutar
+En el servidor donde se instalará la webapp ejecutar
 el script de sql: 
-
-$ mysql -u nom-usuario -p contraseña
-
-$ \. /rutadelarchivo/booStoreScript.sql
+ $ mysql -u nom-usuario -p contraseña
+ $ \. /rutadelarchivo/booStoreScript.sql
 </li>
-<li></li>
-<li></li>
- 
-
-3.-Modificar la clase conexion del proyecto la cual se encontrá en la
+<li>
+Modificar la clase conexion del proyecto la cual se encontrá en la
 carpeta bookstore.
 
 $ cd /rutadelarchivo/proyecto_examen/bookstore/Models
@@ -33,8 +30,9 @@ private $datos = array(
     		               'pass' => "pass_db",   //ingresa la contraseña
     		               'db'   => "bookstore",   //ingresa la database
     		             );
-
-3.-En el archivo index.php ubicado en la ruta /rutadelarchivo/bookstore
+</li>
+<li>
+En el archivo index.php ubicado en la ruta /rutadelarchivo/bookstore
 modificar la linea 5:
 
 index.php
@@ -46,9 +44,9 @@ index.php
 5 define('URL', "http/https://direccionweb.servidor/bookstore/"); 
 //ingresar la direccion web del servidor en la parte "direccionwe.servidor" especificar http o https si el servidor es local se puede poner 
 localhost/bookstore.
-
-
-4.copiar la carpeta bookstore a la carpeta de aplicaciones del servidor
+</li>
+<li>
+Copiar la carpeta bookstore a la carpeta de aplicaciones del servidor
 ejemplo:
 
 $ cp /rutadelarchivo/bookstore/  /var/www/html  
@@ -62,9 +60,9 @@ por último buscar la direccion url en firefox, crome o cualquier otro:
 http://direccion.url.aqui/bookstore
 
 y se tendra ya instalada la aplicacion. 
+</li>
+</ul>
 
-
-
-
+<h3>Puedes ver el funcionamiento de la página <a href = "http://welectronic.byethost6.com/bookstore/">presionando aquí</a><h3>
 
  
