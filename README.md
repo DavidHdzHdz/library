@@ -8,12 +8,11 @@ los pasos a seguir son los siguientes:
 <pre><li>descomprimir el archivo:
 $ unzip proyecto_examen.zip
 </li></pre> 
-<pre><li>En el servidor donde se instalará la webapp ejecutar
-el script de sql: 
+<pre><li>En el servidor donde se instalará la webapp ejecutar el script de sql: 
  $ mysql -u nom-usuario -p contraseña
  $ \. /rutadelarchivo/booStoreScript.sql
 </pre></li>
-<li>
+<pre><li>
 Modificar la clase conexion del proyecto la cual se encontrá en la
 carpeta bookstore.
 
@@ -28,8 +27,8 @@ private $datos = array(
     		               'pass' => "pass_db",   //ingresa la contraseña
     		               'db'   => "bookstore",   //ingresa la database
     		             );
-</li>
-<li>
+</pre></li>
+<pre><li>
 En el archivo index.php ubicado en la ruta /rutadelarchivo/bookstore
 modificar la linea 5:
 
@@ -58,7 +57,7 @@ por último buscar la direccion url en firefox, crome o cualquier otro:
 http://direccion.url.aqui/bookstore
 
 y se tendra ya instalada la aplicacion. 
-</li>
+</pre></li>
 </ul>
 
 <h3>Puedes ver el funcionamiento de la página <a href = "http://welectronic.byethost6.com/bookstore/" target = "_blank">presionando aquí</a><h3>
