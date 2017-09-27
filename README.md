@@ -15,8 +15,7 @@ $ unzip proyecto_examen.zip
  $ \. /rutadelarchivo/booStoreScript.sql
 </li></pre>
  
-<pre><li>
-Modificar la clase conexion del proyecto la cual se encontrá en la
+<pre><li>Modificar la clase conexion del proyecto la cual se encontrá en la
 carpeta bookstore.
 
 $ cd /rutadelarchivo/proyecto_examen/bookstore/Models
@@ -33,8 +32,7 @@ private $datos = array(
     		             );
 </li></pre>
 
-<pre><li>
-En el archivo index.php ubicado en la ruta /rutadelarchivo/bookstore
+<pre><li>En el archivo index.php ubicado en la ruta /rutadelarchivo/bookstore
 modificar la linea 5:
 
 index.php
@@ -48,8 +46,7 @@ index.php
 https si el servidor es local se puede poner localhost/bookstore.
 </li></pre>
 
-<pre><li>
-Copiar la carpeta bookstore a la carpeta de aplicaciones del servidor
+<pre><li>Copiar la carpeta bookstore a la carpeta de aplicaciones del servidor
 ejemplo:
 
 $ cp /rutadelarchivo/bookstore/  /var/www/html  
@@ -67,6 +64,6 @@ y se tendra ya instalada la aplicacion.
 
 </ul>
 
-<h3>Puedes ver el funcionamiento de la página <a href = "http://welectronic.byethost6.com/bookstore/" target = "_blank">presionando aquí</a><h3>
+<h3>Puedes ver el funcionamiento de la webApp <a href = "http://welectronic.byethost6.com/bookstore/" target = "_blank">presionando aquí</a><h3>
 
  
