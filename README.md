@@ -1,21 +1,23 @@
 # library
- this project consists of a platform to manage books in a database
+<p><b> this project consists of a platform to manage books in a database </b></p >
+
 
 Maual de instalacion de la wabApp bookstore.
-
-
 los pasos a seguir son los siguientes:
 
-1.-descomprimir el archivo:
-
-$ unzip proyecto_examen.zip
-
+<li>descomprimir el archivo:<br> $ unzip proyecto_examen.zip
+</li>
+<li>
 2.- en el servidor donde se instalará la webapp ejecutar
 el script de sql: 
 
 $ mysql -u nom-usuario -p contraseña
 
 $ \. /rutadelarchivo/booStoreScript.sql
+</li>
+<li></li>
+<li></li>
+ 
 
 3.-Modificar la clase conexion del proyecto la cual se encontrá en la
 carpeta bookstore.
