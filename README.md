@@ -1,13 +1,12 @@
 # library
 <p><b> this project consists of a platform to manage books in a database </b></p >
 
-<pre>
+
 Maual de instalacion de la wabApp bookstore.
 los pasos a seguir son los siguientes:
 <ul>
-<li><pre>
-descomprimir el archivo:
- $ unzip proyecto_examen.zip
+<li><pre>descomprimir el archivo:
+$ unzip proyecto_examen.zip
 </pre> 
 </li>
 <li>
@@ -66,4 +65,4 @@ y se tendra ya instalada la aplicacion.
 
 <h3>Puedes ver el funcionamiento de la página <a href = "http://welectronic.byethost6.com/bookstore/" target = "_blank">presionando aquí</a><h3>
 
- </pre>
+ 
